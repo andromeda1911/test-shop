@@ -113,9 +113,10 @@ const modules = {
 const projectConfig = {
   jwtSecret: process.env.JWT_SECRET,
   cookieSecret: process.env.COOKIE_SECRET,
-  store_cors: STORE_CORS,
+  //database_database: "./medusa-db.sql",
   database_url: DATABASE_URL,
-  database_type: 'postgres',
+  database_type: DATABASE_TYPE,
+  store_cors: STORE_CORS,
   admin_cors: ADMIN_CORS,
   // Uncomment the following lines to enable REDIS
   // redis_url: REDIS_URL
