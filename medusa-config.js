@@ -115,7 +115,7 @@ const projectConfig = {
   cookieSecret: process.env.COOKIE_SECRET,
   //database_database: "./medusa-db.sql",
   database_url: DATABASE_URL,
-  database_type: DATABASE_TYPE,
+  database_type: 'postgres',
   store_cors: STORE_CORS,
   admin_cors: ADMIN_CORS,
   // Uncomment the following lines to enable REDIS
